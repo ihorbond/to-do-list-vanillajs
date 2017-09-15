@@ -5,7 +5,9 @@ let tasksArray = [];
 function addTask () {
 	let input = document.getElementById("newTask").value;
 	tasksArray.push(input);
+	if(input === '') return;
 	showTasks(input);
+	document.getElementById("newTask").value = '';
 	// console.log(tasksArray);
 	// console.log('button pressed');
 }

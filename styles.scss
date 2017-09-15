@@ -1,3 +1,23 @@
 #main {
+	h1 {
+		text-align: center;
+	}
 	background-color: rgb(105, 63, 154);
+}
+li {
+	button {
+		background: red;
+	}
+	text-transform: capitalize;
+	color: white;
+	font-weight: bolder;
+}
+button {
+	display: block;
+	color: white;
+	font-weight: bolder;
+	border: none;
+	background: green;
+	font-style: italic;
+	border-radius: 5px;
 }
